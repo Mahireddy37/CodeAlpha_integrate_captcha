@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction to Third-Party Scripts and CAPTCHA Services</title>
+  <style>
+    /* Add your custom CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .captcha-type {
+      margin: 20px;
+    }
+
+    .pros-cons {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 10px;
+    }
+
+    .pros-cons li {
+      flex: 0 0 50%;
+      margin: 5px;
+      list-style: none;
+    }
+
+    .pros {
+      color: green;
+    }
+
+    .cons {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Introduction to Using Third-Party Scripts on an Existing Website</h1>
+  <p>It's an important talent to have. A lot of websites today use multiple third-party apps.
+    This is also great practice in following a developer’s documentation.</p>
+
+  <h2>Different Types of CAPTCHA Services and Their Pros and Cons</h2>
+
+  <div class="captcha-type">
+    <h3>1. Image-based CAPTCHA</h3>
+    <ul class="pros-cons">
+      <li class="pros">Familiar and widely recognized by users.</li>
+      <li class="pros">Effective against many automated bots.</li>
+      <li class="cons">Accessibility concerns for visually impaired users.</li>
+      <li class="cons">Vulnerable to advanced OCR techniques.</li>
+      <li class="cons">Some users may find it challenging to interpret distorted text.</li>
+    </ul>
+  </div>
+
+  <div class="captcha-type">
+    <h3>2. Audio-based CAPTCHA</h3>
+    <ul class="pros-cons">
+      <li class="pros">Provides an alternative for visually impaired users.</li>
+      <li class="pros">Harder for bots to solve compared to image-based CAPTCHAs.</li>
+      <li class="cons">Poor audio quality can make it difficult for users to understand.</li>
+      <li class="cons">Slower and may lead to a less smooth user experience.</li>
+      <li class="cons">Vulnerable to voice recognition attacks.</li>
+    </ul>
+  </div>
+
+  <div class="captcha-type">
+    <h3>3. Math-based CAPTCHA</h3>
+    <ul class="pros-cons">
+      <li class="pros">Simple and easy for most users to solve.</li>
+      <li class="pros">Does not rely on visual perception, making it accessible.</li>
+      <li class="pros">Generally fast and lightweight.</li>
+      <li class="cons">Basic math challenges might be easily solvable by some bots.</li>
+      <li class="cons">Limited complexity can make it susceptible to automated solutions.</li>
+    </ul>
+  </div>
+
+  <div class="captcha-type">
+    <h3>4. Checkbox CAPTCHA</h3>
+    <ul class="pros-cons">
+      <li class="pros">Invisible to users, improving the user experience.</li>
+      <li class="pros">Low friction as it does not require any user interaction.</li>
+      <li class="pros">Captures user behavior to assess bot probability.</li>
+      <li class="cons">Cannot provide a direct challenge-response test to distinguish bots from humans.</li>
+      <li class="cons">Might be less effective against sophisticated bots.</li>
+    </ul>
+  </div>
+
+  <div class="captcha-type">
+    <h3>5.Interactive CAPTCHA</h3>
+    <ul class="pros-cons">
+      <li
+       class="pros">Engaging and fun for users, improving user experience.</li>
+      <li class="pros">Difficult for bots to interact with, especially if the interactions are dynamic.</li>
+      <li class="pros">Can be tailored to match the website's theme.</li>
+      <li class="cons"> Development effort may be higher than other CAPTCHA types.</li>
+      <li class="cons">May not be as accessible to users with certain disabilities.    </li>
+    </ul>
+  </div>
+
+  <div class="captcha-type">
+    <h3>6. Honeypot CAPTCHA</h3>
+    <ul class="pros-cons">
+      <li class="pros">Invisible to users, no interruption to the user experience.    </li>
+      <li class="pros">Simple to implement and maintain.    </li>
+      <li class="pros">Effective against basic bots that do not analyze the page structure.    </li>
+      <li class="cons">May not be as effective against more sophisticated bots.    </li>
+      <li class="cons">Users with CSS or JavaScript disabled might inadvertently trigger the CAPTCHA.    </li>
+    </ul>
+  </div>
+  <!-- Add more sections for other CAPTCHA types -->
+
+</body>
+
+</html>
